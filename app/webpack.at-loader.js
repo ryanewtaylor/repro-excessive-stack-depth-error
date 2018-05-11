@@ -18,8 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: "ts-loader" // causes Excessive stack depth comparing types
-        //loader: "awesome-typescript-loader"  // does not cause Excessive stack depth comparing types
+        loader: "awesome-typescript-loader"
       }
     ]
   }

@@ -5,7 +5,8 @@
   "author": "Ryan Taylor",
   "license": "MIT",
   "scripts": {
-    "buildWithWebpack": "webpack --color --progress --config webpack.common.js",
+    "buildWithTsLoader": "webpack --color --progress --config webpack.ts-loader.js",
+    "buildWithAtLoader": "webpack --color --progress --config webpack.at-loader.js",
     "buildWithTsc": "tsc"
   },
   "dependencies": {
