@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Ryan Taylor",
+  "license": "MIT",
+  "scripts": {
+    "buildWithWebpack": "webpack --color --progress --config webpack.common.js",
+    "buildWithTsc": "tsc"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
